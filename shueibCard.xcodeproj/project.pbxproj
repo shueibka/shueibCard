@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA80E752B68FEBD002C3524 /* shueibCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA80E742B68FEBD002C3524 /* shueibCardApp.swift */; };
+		BEA80E772B68FEBD002C3524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA80E762B68FEBD002C3524 /* ContentView.swift */; };
+		BEA80E792B68FEC2002C3524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA80E782B68FEC2002C3524 /* Assets.xcassets */; };
+		BEA80E7C2B68FEC2002C3524 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA80E7B2B68FEC2002C3524 /* Preview Assets.xcassets */; };
+		BEA80E862B68FEC3002C3524 /* shueibCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA80E852B68FEC3002C3524 /* shueibCardTests.swift */; };
+		BEA80E902B68FEC3002C3524 /* shueibCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA80E8F2B68FEC3002C3524 /* shueibCardUITests.swift */; };
+		BEA80E922B68FEC3002C3524 /* shueibCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA80E912B68FEC3002C3524 /* shueibCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA80E822B68FEC3002C3524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA80E692B68FEBD002C3524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA80E702B68FEBD002C3524;
+			remoteInfo = shueibCard;
+		};
+		BEA80E8C2B68FEC3002C3524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA80E692B68FEBD002C3524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA80E702B68FEBD002C3524;
+			remoteInfo = shueibCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA80E712B68FEBD002C3524 /* shueibCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shueibCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA80E742B68FEBD002C3524 /* shueibCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shueibCardApp.swift; sourceTree = "<group>"; };
+		BEA80E762B68FEBD002C3524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEA80E782B68FEC2002C3524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA80E7B2B68FEC2002C3524 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEA80E812B68FEC3002C3524 /* shueibCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shueibCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA80E852B68FEC3002C3524 /* shueibCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shueibCardTests.swift; sourceTree = "<group>"; };
+		BEA80E8B2B68FEC3002C3524 /* shueibCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shueibCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA80E8F2B68FEC3002C3524 /* shueibCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shueibCardUITests.swift; sourceTree = "<group>"; };
+		BEA80E912B68FEC3002C3524 /* shueibCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shueibCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA80E6E2B68FEBD002C3524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA80E7E2B68FEC3002C3524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA80E882B68FEC3002C3524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA80E682B68FEBD002C3524 = {
+			isa = PBXGroup;
+			children = (
+				BEA80E732B68FEBD002C3524 /* shueibCard */,
+				BEA80E842B68FEC3002C3524 /* shueibCardTests */,
+				BEA80E8E2B68FEC3002C3524 /* shueibCardUITests */,
+				BEA80E722B68FEBD002C3524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA80E722B68FEBD002C3524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA80E712B68FEBD002C3524 /* shueibCard.app */,
+				BEA80E812B68FEC3002C3524 /* shueibCardTests.xctest */,
+				BEA80E8B2B68FEC3002C3524 /* shueibCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA80E732B68FEBD002C3524 /* shueibCard */ = {
+			isa = PBXGroup;
+			children = (
+				BEA80E742B68FEBD002C3524 /* shueibCardApp.swift */,
+				BEA80E762B68FEBD002C3524 /* ContentView.swift */,
+				BEA80E782B68FEC2002C3524 /* Assets.xcassets */,
+				BEA80E7A2B68FEC2002C3524 /* Preview Content */,
+			);
+			path = shueibCard;
+			sourceTree = "<group>";
+		};
+		BEA80E7A2B68FEC2002C3524 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEA80E7B2B68FEC2002C3524 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEA80E842B68FEC3002C3524 /* shueibCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA80E852B68FEC3002C3524 /* shueibCardTests.swift */,
+			);
+			path = shueibCardTests;
+			sourceTree = "<group>";
+		};
+		BEA80E8E2B68FEC3002C3524 /* shueibCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA80E8F2B68FEC3002C3524 /* shueibCardUITests.swift */,
+				BEA80E912B68FEC3002C3524 /* shueibCardUITestsLaunchTests.swift */,
+			);
+			path = shueibCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA80E702B68FEBD002C3524 /* shueibCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA80E952B68FEC3002C3524 /* Build configuration list for PBXNativeTarget "shueibCard" */;
+			buildPhases = (
+				BEA80E6D2B68FEBD002C3524 /* Sources */,
+				BEA80E6E2B68FEBD002C3524 /* Frameworks */,
+				BEA80E6F2B68FEBD002C3524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shueibCard;
+			productName = shueibCard;
+			productReference = BEA80E712B68FEBD002C3524 /* shueibCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA80E802B68FEC3002C3524 /* shueibCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA80E982B68FEC3002C3524 /* Build configuration list for PBXNativeTarget "shueibCardTests" */;
+			buildPhases = (
+				BEA80E7D2B68FEC3002C3524 /* Sources */,
+				BEA80E7E2B68FEC3002C3524 /* Frameworks */,
+				BEA80E7F2B68FEC3002C3524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA80E832B68FEC3002C3524 /* PBXTargetDependency */,
+			);
+			name = shueibCardTests;
+			productName = shueibCardTests;
+			productReference = BEA80E812B68FEC3002C3524 /* shueibCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA80E8A2B68FEC3002C3524 /* shueibCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA80E9B2B68FEC3002C3524 /* Build configuration list for PBXNativeTarget "shueibCardUITests" */;
+			buildPhases = (
+				BEA80E872B68FEC3002C3524 /* Sources */,
+				BEA80E882B68FEC3002C3524 /* Frameworks */,
+				BEA80E892B68FEC3002C3524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA80E8D2B68FEC3002C3524 /* PBXTargetDependency */,
+			);
+			name = shueibCardUITests;
+			productName = shueibCardUITests;
+			productReference = BEA80E8B2B68FEC3002C3524 /* shueibCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA80E692B68FEBD002C3524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BEA80E702B68FEBD002C3524 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BEA80E802B68FEC3002C3524 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BEA80E702B68FEBD002C3524;
+					};
+					BEA80E8A2B68FEC3002C3524 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BEA80E702B68FEBD002C3524;
+					};
+				};
+			};
+			buildConfigurationList = BEA80E6C2B68FEBD002C3524 /* Build configuration list for PBXProject "shueibCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA80E682B68FEBD002C3524;
+			productRefGroup = BEA80E722B68FEBD002C3524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA80E702B68FEBD002C3524 /* shueibCard */,
+				BEA80E802B68FEC3002C3524 /* shueibCardTests */,
+				BEA80E8A2B68FEC3002C3524 /* shueibCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA80E6F2B68FEBD002C3524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA80E7C2B68FEC2002C3524 /* Preview Assets.xcassets in Resources */,
+				BEA80E792B68FEC2002C3524 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA80E7F2B68FEC3002C3524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA80E892B68FEC3002C3524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA80E6D2B68FEBD002C3524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA80E772B68FEBD002C3524 /* ContentView.swift in Sources */,
+				BEA80E752B68FEBD002C3524 /* shueibCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA80E7D2B68FEC3002C3524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA80E862B68FEC3002C3524 /* shueibCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA80E872B68FEC3002C3524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA80E922B68FEC3002C3524 /* shueibCardUITestsLaunchTests.swift in Sources */,
+				BEA80E902B68FEC3002C3524 /* shueibCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA80E832B68FEC3002C3524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA80E702B68FEBD002C3524 /* shueibCard */;
+			targetProxy = BEA80E822B68FEC3002C3524 /* PBXContainerItemProxy */;
+		};
+		BEA80E8D2B68FEC3002C3524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA80E702B68FEBD002C3524 /* shueibCard */;
+			targetProxy = BEA80E8C2B68FEC3002C3524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEA80E932B68FEC3002C3524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEA80E942B68FEC3002C3524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA80E962B68FEC3002C3524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shueibCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shueib.year2.shueibCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA80E972B68FEC3002C3524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shueibCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shueib.year2.shueibCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEA80E992B68FEC3002C3524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shueib.year2.shueibCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shueibCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shueibCard";
+			};
+			name = Debug;
+		};
+		BEA80E9A2B68FEC3002C3524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shueib.year2.shueibCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shueibCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shueibCard";
+			};
+			name = Release;
+		};
+		BEA80E9C2B68FEC3002C3524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shueib.year2.shueibCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shueibCard;
+			};
+			name = Debug;
+		};
+		BEA80E9D2B68FEC3002C3524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shueib.year2.shueibCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shueibCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA80E6C2B68FEBD002C3524 /* Build configuration list for PBXProject "shueibCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA80E932B68FEC3002C3524 /* Debug */,
+				BEA80E942B68FEC3002C3524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA80E952B68FEC3002C3524 /* Build configuration list for PBXNativeTarget "shueibCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA80E962B68FEC3002C3524 /* Debug */,
+				BEA80E972B68FEC3002C3524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA80E982B68FEC3002C3524 /* Build configuration list for PBXNativeTarget "shueibCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA80E992B68FEC3002C3524 /* Debug */,
+				BEA80E9A2B68FEC3002C3524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA80E9B2B68FEC3002C3524 /* Build configuration list for PBXNativeTarget "shueibCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA80E9C2B68FEC3002C3524 /* Debug */,
+				BEA80E9D2B68FEC3002C3524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA80E692B68FEBD002C3524 /* Project object */;
+}
